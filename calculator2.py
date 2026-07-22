@@ -1,0 +1,39 @@
+"""
+Simple Calculator - Staging Branch Version
+Supports: Multiplication, Division
+"""
+
+
+def multiply(a, b):
+    """Return the product of two numbers."""
+    return a * b
+
+
+def divide(a, b):
+    """Return the quotient of two numbers. Handles division by zero safely."""
+    if b == 0:
+        return "Error: Cannot divide by zero"
+    return a / b
+
+
+def main():
+    print("=== Simple Calculator (staging branch) ===")
+    print("Available operations: * , /")
+
+    num1 = float(input("Enter first number: "))
+    op = input("Enter operation (* or /): ").strip()
+    num2 = float(input("Enter second number: "))
+
+    if op == "*":
+        result = multiply(num1, num2)
+    elif op == "/":
+        result = divide(num1, num2)
+    else:
+        print("Invalid operation. Only * and / are supported on this branch.")
+        return
+
+    print(f"Result: {result}")
+
+
+if __name__ == "__main__":
+    main()
