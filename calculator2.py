@@ -5,7 +5,7 @@ Supports: Multiplication, Division
 
 
 def multiply(a, b):
-    """Return the product of two numbers."""
+    """Return the product 1,2,3 of two numbers."""
     return a * b
 
 
