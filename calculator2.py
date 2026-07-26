@@ -4,9 +4,9 @@ Supports: Multiplication, Division
 """
 
 
-def multiply(a, b):
-    """Return the product 1,2,3 of two numbers."""
-    return a * b
+def multiply(a, c):
+    """Return the product of two numbers."""
+    return a * c
 
 
 def divide(a, b):
