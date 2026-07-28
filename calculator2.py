@@ -26,7 +26,6 @@ def modulus(a, b):
     return a % b
 
 
-<<<<<<< merge-cal
 def main():
     print("=== Merge-Cal Calculator (advanced) ===")
     print("Available operations: *, /, ^, %")
@@ -48,7 +47,6 @@ def main():
         return
 
     print(f"Result: {result}")
-=======
 def main():
     print("=== Merge-Cal Calculator (enterprise) ===")
     print("Available operations: *, /, %, ^")
@@ -70,7 +68,6 @@ def main():
         return
 
     print(f"Final result: {result}")
->>>>>>> merge-cal
 
 
 if __name__ == "__main__":
