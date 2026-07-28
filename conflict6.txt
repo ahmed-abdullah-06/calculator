@@ -1,3 +1,0 @@
-Merge-cal version of conflict 6
-Branch: merge-cal
-
