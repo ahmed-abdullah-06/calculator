@@ -26,12 +26,13 @@ def modulus(a, b):
     return a % b
 
 
+<<<<<<< merge-cal
 def main():
-    print("=== Simple Calculator (staging branch) ===")
-    print("Available operations: * , / , ^ , %")
+    print("=== Merge-Cal Calculator (advanced) ===")
+    print("Available operations: *, /, ^, %")
 
     num1 = float(input("Enter first number: "))
-    op = input("Enter operation (*, /,%, or ^): ").strip()
+    op = input("Enter operation (*, /, %, or ^): ").strip()
     num2 = float(input("Enter second number: "))
 
     if op == "*":
@@ -43,22 +44,32 @@ def main():
     elif op == "%":
         result = modulus(num1, num2)
     else:
-        print("Invalid operation. Only * , / and ^ are supported on this branch.")
+        print("Only the advanced operators are accepted in merge-cal.")
         return
 
     print(f"Result: {result}")
-
-
-<<<<<<< merge-cal
-Conflict Example 1: Add a square-root helper.
 =======
-Conflict Example 1: Add a cube-root helper instead.
->>>>>>> merge-cal
+def main():
+    print("=== Merge-Cal Calculator (enterprise) ===")
+    print("Available operations: *, /, %, ^")
 
-<<<<<<< merge-cal
-Conflict Example 2: Add a logarithm helper.
-=======
-Conflict Example 2: Add an exponential helper instead.
+    num1 = float(input("Enter first number: "))
+    op = input("Enter operation (*, /, %, or ^): ").strip()
+    num2 = float(input("Enter second number: "))
+
+    if op == "*":
+        result = multiply(num1, num2)
+    elif op == "/":
+        result = divide(num1, num2)
+    elif op == "%":
+        result = modulus(num1, num2)
+    elif op == "^":
+        result = power(num1, num2)
+    else:
+        print("Only the enterprise operators are accepted in merge-cal.")
+        return
+
+    print(f"Final result: {result}")
 >>>>>>> merge-cal
 
 
