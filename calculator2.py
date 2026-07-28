@@ -49,5 +49,18 @@ def main():
     print(f"Result: {result}")
 
 
+<<<<<<< merge-cal
+Conflict Example 1: Add a square-root helper.
+=======
+Conflict Example 1: Add a cube-root helper instead.
+>>>>>>> merge-cal
+
+<<<<<<< merge-cal
+Conflict Example 2: Add a logarithm helper.
+=======
+Conflict Example 2: Add an exponential helper instead.
+>>>>>>> merge-cal
+
+
 if __name__ == "__main__":
     main()
