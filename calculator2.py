@@ -47,7 +47,7 @@ def main():
         return
 
     print(f"Result: {result}")
-
+print(f"Result: {result}")
 
 if __name__ == "__main__":
     main()
